@@ -19,4 +19,5 @@ function switchBackground() {
 function disco() {
   for (let i = 0; i < 50; i++) {
     switchBackground();
+    console.log('background color change #' + i);
   }}
