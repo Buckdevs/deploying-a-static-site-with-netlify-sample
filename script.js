@@ -1,6 +1,6 @@
 const clapButton = document.getElementById('clap-button');
 
-clapButton.addEventListener('click', switchBackground);
+clapButton.addEventListener('click', disco);
 
 function randomColor() {
   const red = Math.floor(Math.random() * 256);
@@ -15,3 +15,8 @@ function switchBackground() {
   const backgroundColor = randomColor();
   document.body.style.backgroundColor = backgroundColor;
 }
+
+function disco() {
+  for (let i = 0; i < 50; i++) {
+    switchBackground();
+  }}
