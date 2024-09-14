@@ -18,6 +18,7 @@ function switchBackground() {
 
 function disco() {
   for (let i = 0; i < 50; i++) {
+    setTimeout(() => {
     switchBackground();
-    console.log('background color change #' + i);
+    console.log('background color change #' + i);}, 500)
   }}
